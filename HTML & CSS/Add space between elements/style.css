@@ -1,0 +1,14 @@
+.main {
+    margin-top: 100px;
+}
+
+.logo-img {
+    width: 300px;
+}
+.search-input {
+    width: 400px;
+    margin-top: 20px;
+}
+.logo-img, .search-input {
+    display: block;
+}
