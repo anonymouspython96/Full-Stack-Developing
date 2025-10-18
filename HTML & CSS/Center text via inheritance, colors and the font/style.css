@@ -1,0 +1,40 @@
+body {
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+:root {
+    --one-violet: #e0aaff; 
+    --one-darkerviolet: #10002b;
+    --one-darkviolet: #3c096c;
+}
+.debug-dotted {
+    border: 1px dotted blue;
+}
+.avatar {
+    width: 150px;
+    border-radius: 100%;
+}
+.card {
+    color: var(--one-violet);
+    background: var(--one-darkerviolet);
+    border-top: var(--one-darkviolet) 16px solid;
+    border-bottom: var(--one-darkviolet) 16px solid;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 10px 10px 5px var(--one-violet);
+}
+.card:hover {
+    background: var(--one-darkviolet);
+    border-top: var(--one-darkerviolet) 16px solid;
+    border-bottom: var(--one-darkerviolet) 16px solid;
+    behavior: smooth;
+}
+
+/*
+    Did all the challenges exept for the animations that I will study another time.
+*/
