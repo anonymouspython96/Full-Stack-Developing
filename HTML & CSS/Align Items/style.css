@@ -1,0 +1,20 @@
+.container {
+    border: 8px solid #016A26;
+    height: 260px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+/*
+    without a height property in case we use flex
+    the default align items property it's strech
+*/
+.item {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+    background: linear-gradient(#14463d, #016A26);
+}
