@@ -1,9 +1,10 @@
 .container {
     border: 8px solid #016A26;
-    height: 260px;
+    height: 400px;
     display: flex;
-    justify-content: space-around;
-    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 /*
     without a height property in case we use flex
