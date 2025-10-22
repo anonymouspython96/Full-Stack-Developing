@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Kanit;
+    src: url(./kanit.regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Kanit;
+    letter-spacing: 0.5rem;
+    font-size: 3rem;
+    font-weight: bold;
+    background: rgb(219, 0, 0);
+    color: white;
+    text-shadow: 5px -5px 5px black;
+}
+
+/*
+    The first value of the text shadow it is for the x axis the second for the y and the third it's for the transparency of the shadow
+*/
