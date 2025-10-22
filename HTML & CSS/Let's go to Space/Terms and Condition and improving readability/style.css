@@ -31,6 +31,7 @@ header {
 
 h1 {
     padding-bottom: 50px;
+    text-shadow: 0 0 4px black;
 }
 
 .btn {
