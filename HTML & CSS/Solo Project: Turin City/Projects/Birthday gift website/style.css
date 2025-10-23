@@ -1,0 +1,110 @@
+@font-face {
+    font-family: HP;
+    src: url('./HappyMonkey-Regular.ttf');
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: HP;
+    background-color: #00b1b1;
+    color: #f5f5f5;
+    text-align: center;
+    text-shadow: 0 0 1px black;
+    background: linear-gradient(#00b1b1, pink);
+}
+
+header,
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding: 1.5rem 0;
+}
+
+#img {
+    width: 180px;
+    height: 180px;
+    background-image: url('./imgs/Jimma.jpg');
+    background-position: center top;
+    border: 0.5rem solid pink;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
+}
+
+/*
+    I used a div for the property because the image that I find on internet was with different width and height so I used a different method to archive the goal of a rounded image profile
+*/
+.pad {
+    margin: 0.1rem 0;
+    background: pink;
+    border-radius: 4px;
+}
+
+#bd-years {
+    padding: 8px 16px;
+}
+
+#bd-day {
+    padding: 4px 8px;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.top-comment {
+    margin-bottom: 1.5rem;
+}
+
+.hover-comment {
+    margin: 0.5rem 0 1rem;
+}
+
+.gift-image {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-bottom: 1.5rem;
+    background: url('./imgs/gift.jpg') center bottom / cover no-repeat;
+    border: 0.5rem solid #f5f5f5;
+    border-radius: 4px;
+}
+
+#happy:hover {
+    background: url('./imgs/happy.gif') center bottom / cover no-repeat;
+}
+
+#love:hover {
+    background: url('./imgs/amazing.gif') center bottom / cover no-repeat;
+}
+
+#genius:hover {
+    background: url('./imgs/genius.gif') center bottom / cover no-repeat;
+}
+
+#badass:hover {
+    background: url('./imgs/badass.gif') center bottom / cover no-repeat;
+}
+
+#cheers {
+    height: 200px;
+}
+
+#cheers:hover {
+    background: url('./imgs/cheers.gif') center bottom / cover no-repeat;
+}
+
+footer {
+    font-size: 1.3rem;
+    font-style: italic;
+    margin: 1rem 0;
+}
+footer>p>a {
+    color: #f5f5f5;
+}
