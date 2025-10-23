@@ -78,3 +78,9 @@ section {
 #love:hover {
         background: url('./imgs/amazing.gif') center bottom / cover no-repeat;
 }
+#genius:hover {
+        background: url('./imgs/genius.gif') center bottom / cover no-repeat;
+}
+#badass:hover {
+        background: url('./imgs/badass.gif') center bottom / cover no-repeat;
+}
