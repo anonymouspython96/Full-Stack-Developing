@@ -70,3 +70,6 @@ main {
     border: 0.5rem solid #f5f5f5;
     border-radius: 4px;
 }
+.gift-image:hover{
+    background: url('./imgs/happy.gif') center bottom / cover no-repeat;
+}
