@@ -63,7 +63,10 @@ main {
 
 .gift-image {
     width: 400px;
+    height: 400px;
+    display: block;
     margin-bottom: 1.5rem;
+    background:url('./imgs/gift.jpg') center bottom / cover no-repeat;
     border: 0.5rem solid #f5f5f5;
     border-radius: 4px;
 }
