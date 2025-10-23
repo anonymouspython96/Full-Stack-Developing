@@ -98,3 +98,12 @@ section {
 #cheers:hover {
     background: url('./imgs/cheers.gif') center bottom / cover no-repeat;
 }
+
+footer {
+    font-size: 1.3rem;
+    font-style: italic;
+    margin: 1rem 0;
+}
+footer>p>a {
+    color: #f5f5f5;
+}
