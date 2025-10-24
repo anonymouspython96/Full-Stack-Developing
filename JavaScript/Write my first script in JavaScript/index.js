@@ -16,7 +16,15 @@ function increment() {
     console.log("The button was clicked")
 } // best function ever
 
-function answerOfTheFoundamentalQuestion() {
-    console.log(42)
+// function answerOfTheFoundamentalQuestion() {
+//     console.log(42)
+// }
+// answerOfTheFoundamentalQuestion() 
+
+// Increment on clicks
+
+let count = 0 
+function incrementCount() {
+    count += 1
+    console.log(count)
 }
-answerOfTheFoundamentalQuestion()
