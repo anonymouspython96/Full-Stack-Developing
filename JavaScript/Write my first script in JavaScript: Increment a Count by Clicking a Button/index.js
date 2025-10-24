@@ -23,12 +23,17 @@ function increment() {
 
 // Increment on clicks
 // display the count
-let count = 0 
 let countEl = document.getElementById("count") // pass in argument
+let count = 0 
 function incrementCount() {
     count += 1
     countEl.innerText = count
-    console.log(count)
 }
 
 // console.log(countEl)
+// DOM
+// Document Object Model
+// aka how I use JS to modify a website
+function save() {
+    console.log(count)
+}
