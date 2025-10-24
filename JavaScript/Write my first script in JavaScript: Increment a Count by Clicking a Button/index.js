@@ -22,9 +22,13 @@ function increment() {
 // answerOfTheFoundamentalQuestion() 
 
 // Increment on clicks
-
+// display the count
 let count = 0 
+let countEl = document.getElementById("count") // pass in argument
 function incrementCount() {
     count += 1
+    countEl.innerText = count
     console.log(count)
 }
+
+// console.log(countEl)
